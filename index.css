@@ -1,0 +1,35 @@
+.app{
+    left:50%; top:50%; 
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    background-color:gray;
+    color:white;
+    position:absolute; 
+}
+.item{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add{
+    background-color: rgb(23, 22, 22);
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding:15px
+}
+.remove{
+    background-color: rgb(212, 101, 101);
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding:15px
+}
